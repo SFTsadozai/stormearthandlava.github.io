@@ -5,16 +5,32 @@ last_update: 2019-01-30 9:00:00
 game_version: 8.1.0 Battle for Azeroth
 toc: true
 ---
-Due to the advent of the Titanforging system, BiS lists are a defunct practice. We suggest you simulate each piece of gear you obtain against your other gear to find the most effective gear set. Aside from that, following a general stat priority and ratio is the most practical way to move forward with gearing. Additionally, we are focused on single target output for raid environments, as it is vastly more important than building for AoE or cleave specifically, but don’t be afraid to experiment to tailor yourself to a raid encounter.
+Due to the advent of the Titanforging system, BiS lists are a defunct practice. We suggest you simulate each piece of gear you obtain against your other gear using SimulationCraft either via the [downloadable client](http://simulationcraft.org/download.html) or online via [Raidbots](http://raidbots.com) to find the most effective gear set. 
+Aside from that, following a general stat priority and ratio is the most practical way to determine where to find the biggest upgrades. It is important to note that for Elemental Shaman there is no one universally optimal stat ratio nor can there be said to a true "best"stat as the relative value of the different secondary stats is heavily dependent on a myriad of factors such as talents, your azerite traits & fight specifics. 
+This page provides a broad summary of Elemental's stat priorities in a range of practical situations.
 
-## Stat ratios
+# Stat ratios
 
-Below are our advised stat gearing strategies for talent combinations. We won’t release numbers for every single talent combination, but the general ratio and priority serve as a good all-round distribution.
-
-Purpose | Crit | Haste | Mastery | Vers
+Below are our advised stat gearing strategies for a range of widely utilized talent combinations. They provide an insight in to the relative strength for given situations and can be used to help guide your gearing for different content/fights.
+## Single Target
+Talents/Purpose | Crit | Haste | Mastery | Vers
 --- | --- | --- | --- | ---
-Dungeon / Mythic+ / AoE | 0.6 | 0.2 | 0.1 | 0.1
-Raid / Single&nbsp;Target | 0.4 | 0.3 | 0.1 | 0.2
+{{ site.data.talent.echo }}/{{ site.data.talent.mote }}/{{ site.data.talent.if }} | 0.35 | 0.25 | 0 | 0.40
+{{ site.data.talent.er }}/{{ site.data.talent.se }}/{{ site.data.talent.pe }} | 0.6 | 0.35 | 0 | 0.05
+
+Generally speaking, having multiple of {{ site.data.azerite.igneous_potential }} and using the {{ site.data.talent.echo }} substantially devalues critical strike rating and to a lesser extent haste and so makes versatility a significantly more appealing stat. It is very common to find versatility to be your most valuable stat on single-target once you obtain multiple {{ site.data.azerite.igneous_potential }} pieces.
+### Flame Shock Multi-DoTing
+Talents/Purpose | Crit | Haste | Mastery | Vers
+--- | --- | --- | --- | ---
+{{ site.data.talent.echo }}/{{ site.data.talent.mote }}/{{ site.data.talent.if }} | 0.35 | 0.25 | 0 | 0.40
+{{ site.data.talent.er }}/{{ site.data.talent.se }}/{{ site.data.talent.pe }} | 0.6 | 0.35 | 0 | 0.05
+
+## Multi Target
+Talents/Purpose | Crit | Haste | Mastery | Vers
+--- | --- | --- | --- | ---
+Spread Cleave | 0.35 | 0.25 | 0 | 0.40
+{{ site.data.talent.er }}/{{ site.data.talent.se }}/{{ site.data.talent.pe }} | 0.6 | 0.35 | 0 | 0.05
+
 
 Expand the section below if you want more information on what these ratios are and/or how to use them:
 
