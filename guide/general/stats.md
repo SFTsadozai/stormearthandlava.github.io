@@ -19,11 +19,6 @@ Talents/Purpose | Crit | Haste | Mastery | Vers
 {{ site.data.talent.er }}/{{ site.data.talent.se }}/{{ site.data.talent.pe }} | 0.6 | 0.35 | 0 | 0.05
 
 Generally speaking, having multiple of {{ site.data.azerite.igneous_potential }} and using the {{ site.data.talent.echo }} substantially devalues critical strike rating and to a lesser extent haste and so makes versatility a significantly more appealing stat. It is very common to find versatility to be your most valuable stat on single-target once you obtain multiple {{ site.data.azerite.igneous_potential }} pieces.
-### Flame Shock Multi-DoTing
-Talents/Purpose | Crit | Haste | Mastery | Vers
---- | --- | --- | --- | ---
-{{ site.data.talent.echo }}/{{ site.data.talent.mote }}/{{ site.data.talent.if }} | 0.35 | 0.25 | 0 | 0.40
-{{ site.data.talent.er }}/{{ site.data.talent.se }}/{{ site.data.talent.pe }} | 0.6 | 0.35 | 0 | 0.05
 
 ## Multi Target
 Talents/Purpose | Crit | Haste | Mastery | Vers
